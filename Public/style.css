@@ -85,3 +85,31 @@ section {
     width: 100%;
   }
 }
+.column-70 {
+  width: 70%;
+  float: left;
+  height: 500px;
+  background-color: red;
+}
+
+.column-30 {
+  width: 30%;
+  float: left;
+  height: 500px;
+  background-color: blue;
+}
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+#myimg{
+  background: url('tlv.jpg')
+  height: 200px;
+
+}
